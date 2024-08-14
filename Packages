@@ -1,0 +1,38 @@
+Package: btop
+Version: 1.2.3-2
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1044
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11)
+Filename: ./btop_1.2.3-2_arm64.deb
+Size: 429668
+MD5sum: e349e864ff0fdd3031c98b56c7e3e947
+SHA1: 91de359092f2242272e1fab053db9e54c7b010e4
+SHA256: c5fef262901cb4a93c586795970734df4496bfe0136c04935226c1130c690fbf
+Section: utils
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/aristocratos/btop
+Description: Modern and colorful command line resource monitor that shows usage and stats
+ btop is a modern and colorful command line resource monitor that shows
+ usage and stats for processor, memory, disks, network and processes.
+ btop features:
+  - Easy to use, with a game inspired menu system.
+  - Full mouse support, all buttons with a highlighted key is clickable
+  and mouse scroll works in process list and menu boxes.
+  - Fast and responsive UI with UP, DOWN keys process selection.
+  - Function for showing detailed stats for selected process.
+  - Ability to filter processes.
+  - Easy switching between sorting options.
+  - Tree view of processes.
+  - Send any signal to selected process.
+  - UI menu for changing all config file options.
+  - Auto scaling graph for network usage.
+  - Shows IO activity and speeds for disks
+  - Battery meter
+  - Selectable symbols for the graphs
+  - Custom presets
+  - And more...
+  btop is written in C++ and is continuation of bashtop and bpytop.
+Original-Maintainer: Marius Gripsgard <marius@ubports.com>
+
